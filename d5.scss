@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Inter', sans-serif;
+    background:#ffffff;
+  }
+  
+  ul,li{
+      list-style:none;
+      margin:0px;
+      padding:0px;
+  }
+
+  .header{
+    position: fixed;
+    left:30px;
+    width:calc(100% - 60px);
+    top:13px;
+    display:flex;
+    justify-content: space-between;
+    mix-blend-mode: difference;
+    .main_menu{
+        display:flex;
+        gap:15px;
+        color:white;
+        font-size:20px;
+        font-weight:500;
+    }
+  }
+
+  .main{
+    background: url("./img/back_img.jpg");
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        font-size:15vw;
+        font-weight:500;
+        color:#ffffff;
+    }
+  }

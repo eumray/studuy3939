@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section{
+            height:300px;
+            
+        }
+        .section.sc1{
+            flex:1;
+            background-color: red;
+        }
+        .section.sc2{
+            flex:1;
+            background-color: blue;
+        }
+        .section.sc3{
+            flex:1;
+            background-color: gray;
+        }
+        .container{
+            display:flex;
+            gap:20px;
+            border:5px solid black;
+            margin-bottom:20px;
+        }
+        
+        .container.ct2 .sc1{
+            flex:4;
+        }
+        .container.ct2 .sc2{
+            flex:6;
+        }
+
+        .container.ct3 .sc1{
+            flex:1;
+        }
+        .container.ct3 .sc2{
+            flex:9;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="section sc1"></div>
+        <div class="section sc2"></div>
+    </div>
+
+    <div class="container ct2">
+        <div class="section sc1"></div>
+        <div class="section sc2"></div>
+    </div>
+
+    <div class="container ct3">
+        <div class="section sc1"></div>
+        <div class="section sc2"></div>
+    </div>
+
+    <div class="container ct4">
+        <div class="section sc1"></div>
+        <div class="section sc2"></div>
+        <div class="section sc3"></div>
+    </div>
+    
+</body>
+</html>

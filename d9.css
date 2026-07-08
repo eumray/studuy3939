@@ -1,0 +1,39 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.concept_items {
+  display: flex;
+  justify-content: space-between;
+}
+.concept_items .concept_item {
+  width: 28%;
+}
+.concept_items .concept_item .concept_img img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .concept_items {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .concept_items .concept_item {
+    width: 100%;
+  }
+  .concept_items .concept_item .concept_img img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+}/*# sourceMappingURL=d9.css.map */

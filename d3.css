@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 11.5vw;
+    line-height: 100vh;
+    text-transform: uppercase;
+    text-align: center;
+    background: #272782;
+    color: #ffffff;
+}
+
+.m2 {
+    background-color: red;
+    ;
+}
+
+.m3 {
+    background-color: green;
+}

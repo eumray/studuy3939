@@ -1,0 +1,48 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: 'Inter', sans-serif;
+  background:#ffffff;
+}
+
+ul,li{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    mix-blend-mode: difference;
+    .logo{
+        position: fixed;
+        left:30px;
+        top:13px;
+    }
+    .main_menu{
+        position: fixed;
+        right:30px;
+        top:10px;
+        color:#ffffff;
+        li{
+            display:inline-block;
+            margin-left:10px;
+            font-size:20px;
+            font-weight:500;
+        }
+
+    }
+}
+
+.main{
+    background: url("./img/back_img.jpg");
+    height:100vh;
+    background-size: cover;
+    .title{
+        font-size:12vw;
+        font-weight:500;
+        text-align: center;
+        color:#ffffff;
+        line-height: 100vh;;
+    }
+   
+}
